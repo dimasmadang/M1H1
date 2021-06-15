@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>
+    <Form action="Welcome.html" method="POST">
+        <h2>Sign Up Form</h2>
+        <label> First Name</label> <br><br>
+            <input type="text" name="fname"> <br><br>
+        <label> Last Name</label> <br><br>
+            <input type="text" name="lname"> <br><br>
+        <label> Gender : </label> <br>
+            <input type="radio" name="Gender" > Male <br>
+            <input type="radio" name="Gender" > Female <br>
+            <input type="radio" name="Gender" > Other <br> <br>
+        <label> Nationality : </label> <br>
+            <select name="Nationality" > 
+                <Option value = "indonesia"> indonesia </Option>
+                <Option value = "Asing"> Asing </Option>
+            </select>
+            <br><br>
+        <Label>Language Spoken : </Label> <br>
+            <input type="checkbox"> Bahasa Indonesia <br>
+            <input type="checkbox"> English <br>
+            <input type="checkbox"> Other <br>
+            <br>
+        <Label> Bio :</Label> <br>
+            <textarea name="Bio" cols="35" rows="10"></textarea>
+            <br>
+        <input type="submit" value="Sign Up">
+        
+    </Form>
+</body>
+</html>
